@@ -1,0 +1,46 @@
+.home-page {
+  .list-item {
+    .card {
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+      &:hover img {
+        opacity: .6;
+        cursor: pointer;
+      }
+      .icon-heart {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 10px;
+        right: 10px;
+        background-color: white;
+        border-radius: 30px;
+        cursor: pointer;
+        i {
+          text-align: center;
+          vertical-align: middle;
+          margin-left: 7px;
+        }
+      }
+    }
+    .card-body {
+      h5 {
+        cursor: pointer;
+      }
+    }
+  }
+  .color-red {
+    color: red;
+  }
+}
+.detail-page {
+  .img-detail {
+    width: 100%;
+    border-radius: 6px;
+  }
+  .name-detail {
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
